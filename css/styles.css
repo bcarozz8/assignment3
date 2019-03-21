@@ -17,5 +17,22 @@ color : rgb (86, 270, 190)}
 
 body {
     background-color: #ccffff} 
+
+
+header {
+    display: flex;
+    align-items: center
+} 
+
  
+
+@media screen and (max-width:40rem) {
+    
+    header {
+        flex-direction: column; 
+    }
+    
+   
+}
+
 
