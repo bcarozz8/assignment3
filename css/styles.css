@@ -16,9 +16,16 @@ div ul li {
 color : rgb (86, 270, 190)}
 
 body {
-    background-color: #ccffff} 
-
-
+    background-color: #ccdaff ;
+     
+    background-image:url("https://d9j5qtehtodpj.cloudfront.net/thumbnail/?image=c3d72a19fe2611e8b0120ae0899fa718&maxWidth=800&fittedCrop=0&version=187545"); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh 
+    
+    
+}
+        
 header {
     display: flex;
     align-items: center
@@ -36,3 +43,13 @@ header {
 }
 
 
+
+    h2 { border: 2px solid ; border-radius: 10px; 
+box-shadow: 5px 5px 5px #828282; 
+    } 
+
+    
+
+
+
+    
