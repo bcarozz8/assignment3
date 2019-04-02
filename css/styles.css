@@ -1,0 +1,80 @@
+.cis260specialgreen { 
+    color: #4fd0be;
+    font-weight: bold
+}
+
+
+#content p { 
+    color: blue; 
+}
+
+
+nav 
+{ display: flex;
+flex-direction: column}
+
+html {
+    box-sizing: border-box; 
+    margin: 0;
+    
+}
+
+
+div ul li { 
+
+color :  (86, 270, 190)}
+
+body {
+    background-color: #ccdaff ;
+     
+    background-image:  url("https://d9j5qtehtodpj.cloudfront.net/thumbnail/?image=c3d72a19fe2611e8b0120ae0899fa718&maxWidth=800&fittedCrop=0&version=187545");  
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh
+    
+    
+}
+        
+header {
+    display: flex; 
+    align-items: center
+} 
+
+ 
+ 
+
+
+a:hover {
+    color: #aaa;
+}
+
+  
+background image: url("images/background.jpg");
+
+
+
+<<<<<<< HEAD
+@media only screen and (min-width: 600px)
+=======
+@media screen and (max-width:40rem){
+    header {flex-direction: column;}
+}
+    
+
+
+
+    h2 { border: 2px solid ; border-radius: 10px; 
+        box-shadow: 5px 5px 5px #828282; 
+    } 
+
+    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #555;
+    
+    
+
+    
+>>>>>>> e19d69ed5718dc7940f31bcb4ab803f17c357f6a
