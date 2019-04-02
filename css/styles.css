@@ -27,7 +27,7 @@ color :  (86, 270, 190)}
 body {
     background-color: #ccdaff ;
      
-    background-image:  url("https://d9j5qtehtodpj.cloudfront.net/thumbnail/?image=c3d72a19fe2611e8b0120ae0899fa718&maxWidth=800&fittedCrop=0&version=187545");  
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh
@@ -41,20 +41,34 @@ header {
 } 
 
  
- 
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
 
 
 a:hover {
     color: #aaa;
 }
 
-  
-background image: url("images/background.jpg");
+
 
 
 
 <<<<<<< HEAD
-@media only screen and (min-width: 600px)
+@media screen and (max-width: 40rem)
+{
+    header {flex-direction:column};
+    main {flex-direction:column};
+     
+    
+}
+    
+    
 =======
 @media screen and (max-width:40rem){
     header {flex-direction: column;}
